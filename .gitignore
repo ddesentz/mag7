@@ -1,0 +1,100 @@
+# =========================================
+# Python
+# =========================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+.eggs/
+build/
+dist/
+*.manifest
+*.spec
+
+# Virtual environments
+.env
+server/.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# poetry
+poetry.lock
+
+# =========================================
+# FastAPI / Uvicorn
+# =========================================
+# SQLite or other local DB
+*.db
+*.sqlite3
+
+# Cache files
+*.log
+*.pid
+*.seed
+*.cover
+*.py,cover
+.cache/
+.pytest_cache/
+__pypackages__/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+*,cover
+coverage.xml
+
+# Mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyright
+pyrightconfig.json
+
+# =========================================
+# JavaScript / Node (React)
+# =========================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+package-lock.json
+yarn.lock
+
+# React build output
+dist/
+build/
+
+# Local env files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# =========================================
+# IDE / Editor
+# =========================================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# =========================================
+# OS-specific files
+# =========================================
+.DS_Store
+Thumbs.db
