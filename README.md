@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://i.imgur.com/H7T7h5W.png" width="200"/>
+</p>
+
 # MAG7
 
 MAG7 is a full-stack application that displays the daily returns of the <b>MAG7 Stocks</b> <i>(MSFT, AAPL, GOOGL, AMZN, NVDA, META, TSLA)</i> using data from [yfinance](https://ranaroussi.github.io/yfinance/).
